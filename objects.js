@@ -7,6 +7,3 @@ const playlist = { Kesha: 'Praying'};
 
 console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
 
-playlist;
-console.log(playlist);
-
