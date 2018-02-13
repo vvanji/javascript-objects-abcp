@@ -6,5 +6,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 const playlist = { artistName: 'songTitle'};
 
-console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
+console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons', 'Lady Gaga2', 'Million Reasons2'));
 playlist;
