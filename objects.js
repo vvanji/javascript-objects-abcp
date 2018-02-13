@@ -10,5 +10,5 @@ playlist;
 
 function removeFromPlaylist(playlist, artistName) {
 
-  return playlist.songTitle})
+  return delete playlist.songTitle;
 }
