@@ -13,5 +13,3 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist;
 }
 
-console.log(removeFromPlaylist(playlist, 'Lady Gaga'));
-playlist;
