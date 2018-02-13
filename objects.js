@@ -9,8 +9,8 @@ console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
 playlist;
 
 function removeFromPlaylist(playlist, artistName) {
-
   delete playlist['artistName']; 
+  return playlist;
 }
 
 console.log(removeFromPlaylist(playlist, 'Lady Gaga'));
