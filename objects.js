@@ -13,3 +13,5 @@ function removeFromPlaylist(playlist, artistName) {
   return delete playlist['artistName']; 
 }
 
+console.log(removeFromPlaylist(playlist['Lady Gag']));
+playlist;
