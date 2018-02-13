@@ -10,5 +10,5 @@ playlist;
 
 function removeFromPlaylist(playlist, artistName) {
 
-  return delete playlist['Million Reasons'];
+  return delete playlist['Lady Gaga'];
 }
