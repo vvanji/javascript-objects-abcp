@@ -7,8 +7,6 @@ const playlist = { artist: 'Kesha', song: 'Praying'};
 
 console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
 
-
-playlist 
-
+playlist;
 console.log(playlist);
 
