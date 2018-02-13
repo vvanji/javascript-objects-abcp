@@ -10,5 +10,8 @@ playlist;
 
 function removeFromPlaylist(playlist, artistName) {
 
-  return delete playlist['Lady Gaga'];
+  return Object.assign(playlist, {[artistName]: 'songTitle'})
 }
+
+console.log(removeFromPlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
+playlist;
