@@ -4,7 +4,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, { artistName: 'songTitle' })
 }
 
-const playlist = { Lady Gaga: 'Million Reasons'};
+const playlist = { artistName: 'songTitle'};
 
-console.log(updatePlaylist(playlist, 'Lady Gaga', 'Reasons'));
+console.log(updatePlaylist(playlist, 'Lady Gaga', 'Million Reasons'));
 playlist;
